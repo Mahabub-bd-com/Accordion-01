@@ -1,0 +1,31 @@
+body{
+    font-family: poppins;
+    margin: 0;
+    background-color: #081621;
+}
+
+/* FAQ Section Start */
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 20px;
+    transition: 0.4s;
+  }
+  
+.accordion:hover {                  /* .active, .accordion:hover */
+    background-color: #ccc;
+  }
+  
+  .panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+  }
+/* FAQ Section End */
